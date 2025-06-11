@@ -1,0 +1,102 @@
+.about-me {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me .title {
+  font-size: 3.5rem;
+  color: rgb(15, 23, 42);
+}
+
+.about-me .sub-title {
+  margin-bottom: 10px;
+}
+
+.heading-seperator {
+  align-items: center;
+  display: flex;
+  margin: 10px 0 50px 0;
+  position: relative;
+  width: 180px;
+}
+
+.seperator-line {
+  background-color: rgb(54, 63, 78);
+  height: 2px;
+  width: 100%;
+}
+
+.seperator-blob {
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.seperator-blob div {
+  background-color: rgb(15, 23, 42);
+  border-radius: 10px;
+  width: 35px;
+}
+
+.about-me-description {
+  padding: 0 4rem;
+}
+
+.about-me-description p {
+  line-height: 2rem;
+}
+
+.toggle-btn {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.technologies {
+  font-size: 1.5rem;
+  color: rgb(15, 23, 42);
+  margin-top: 1.5rem;
+}
+
+.tech-grid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.tech-item {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    margin: 80px 0;
+  }
+
+  .about-me-description {
+    padding: 0 2.5rem;
+  }
+
+  .technologies {
+    margin-top: 0;
+  }
+
+  .tech-grid {
+    width: 100%;
+  }
+}
