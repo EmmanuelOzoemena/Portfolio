@@ -8,6 +8,7 @@
 .about-me .title {
   font-size: 3.5rem;
   color: rgb(15, 23, 42);
+  text-transform: uppercase;
 }
 
 .about-me .sub-title {
@@ -86,6 +87,10 @@
 @media screen and (max-width: 768px) {
   .about-me {
     margin: 80px 0;
+  }
+
+  .about-me .title {
+    font-size: 3rem;
   }
 
   .about-me-description {
