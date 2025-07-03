@@ -12,9 +12,14 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="marquee">
-          <p>
+{/*           <p>
             💻 Frontend Developer | 🔍 Problem Solver | 💡 Innovative Thinker
+          </p> */}
+
+          <p>
+            You're viewing an early version of my portfolio. Final refinements are in progress...
           </p>
+          
         </div>
 
         <div className="nav-list">
